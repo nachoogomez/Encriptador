@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador ONE</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+    <img src="assets/imagenes/Logo.png" alt="logo one">
+    <h1>Encriptador ONE</h1>
+</header>
+<main>
+    <section class="contenedor">
+        
+        <!--Text box-->
+
+        <div class="container">
+            <div class="box-izquierda">
+                <textarea class="input-texto" cols="50"	rows="10" placeholder="Ingrese el texto aqui..."></textarea>
+            </div>
+            <div class="box-derecha">
+                <textarea class="mensaje" cols="30" rows="10" placeholder="No se ha encontrado ningún mensaje" disabled></textarea>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+        
+        <!--Botones-->
+        
+        <div class="btn.adv">
+            <p>&#9432;Solo letras minúsculas y sin acentos</p>
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>   
+            </div>
+        </div>
+    
+    </section>
+
+</main>
+
+<!--Footer-->
+<footer>
+    <div class="info">
+        <div class="iconos">
+            <a  href="https://github.com/nachoogomez" target="_blank"><img src="assets/imagenes/github.png" class="git"></a>
+            <a  href="https://www.instagram.com/nachogomez014/?hl=es" target="_blank"><img src="assets/imagenes/instagram.png" class="insta"></a>
+        </div>
+        <p class="copyright">&#169; 2022 Ignacio Gomez </p>
+    </div>
+</footer>
+
+<script src="assets/encriptador.js"></script>
+</body>
+</html>
