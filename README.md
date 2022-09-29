@@ -21,3 +21,5 @@ Características:
 -Funciona solo con letras minúsculas
 
 -No admite números ni caracteres especiales
+
+(solo version desktop)
